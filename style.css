@@ -1,0 +1,15 @@
+.button {
+	height: 100px;
+	color: #85BACD;
+}
+.header {
+	color: white;
+}
+h1 {
+	color: #85BACD;
+	font: sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
