@@ -1,31 +1,23 @@
-.button {
-	height: 100px;
-	color: #85BACD;
-}
 .header {
 	color: white;
 }
-h1 {
+
+.header-title {
 	color: #85BACD;
-	font: sans-serif;
+	font-family: sans-serif;
 }
 
-p {
-	margin: 0;
-	padding: 0;	
-	vertical-align: middle;
-	line-height: 100px;
-}
-
-div {
+.button {
 	height: 100px;
 	background-color: #85BACD;
 	border-bottom: 1px solid white;
 	text-align: center;
 }
 
-a {
+.menu-item {
 	font: 24px sans-serif;
 	color: white;
 	text-decoration: none;
+	line-height: 100px;
+	vertical-align: middle;
 }
