@@ -19,9 +19,17 @@
 <body>
 
   <header class="header">
-    <h1 class="header__title">UWPesa PWA</h1>
+    <button class="backbutton" onclick="goBack()">< BACK </button>
+      <script>
+        function goBack() {
+            window.history.back();
+        }
+      </script>
+    <h1 class="header-title"> UW Pesa </h1>
   </header>
-  
-  <p>This is UW Pesa</p>
+
+  <button type="button" class="button" onclick="location.href='MyAccount.html'">My Account</button>
+  <button type="button" class="button" onclick="location.href='Transfer.html'">Transfer</button>
+
   </body>
 </html>
