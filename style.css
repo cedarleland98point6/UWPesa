@@ -1,23 +1,55 @@
 .header {
 	color: white;
+	text-align: center;
 }
 
 .header-title {
 	color: #85BACD;
 	font-family: sans-serif;
+	display: inline;
 }
 
-.button {
+.homebutton {
+	margin-top: 10px;
 	height: 100px;
-	background-color: #85BACD;
-	border-bottom: 1px solid white;
+	width: 100%;
+	display: block;
+	background-color: #d3d3d3;
+	color: white;
+	font-size: 50px;
+  border: 2px solid #d3d3d3;
 	text-align: center;
 }
 
+.button {
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	display: block;
+	background-color: white;
+	color: #85BACD;
+	font-size: 50px;
+  border: 2px solid #d3d3d3;
+	text-align: center;
+}
+
+.backbutton {
+	float: left;
+	background-color: #85BACD;
+	height: 50px;
+	border: none;
+	color: white;
+}
 .menu-item {
 	font: 24px sans-serif;
-	color: white;
+	color: #d3d3d3;
 	text-decoration: none;
 	line-height: 100px;
 	vertical-align: middle;
+}
+
+p{
+	font-family: monospace;
+	text-align: center;
+	font-size: 50px;
 }
